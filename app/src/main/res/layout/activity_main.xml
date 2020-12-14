@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login3"
+    tools:context=".MainActivity">
+
+    <!--Image color manage-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundopacity">
+    </LinearLayout>
+
+    <!--2 button,ImageView and textView Layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="30dp">
+
+        <ImageView
+            android:id="@+id/knifeForkImageViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spoon2"
+            android:layout_marginRight="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="@color/tintColor"
+            android:padding="8dp"
+            />
+        <TextView
+            android:id="@+id/foodHouseTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cafeHouseTextView"
+            android:textSize="60sp"
+            android:shadowColor="@color/tintColor"
+            android:textColor="@color/tintColor"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/loginBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginBtn"
+            android:textStyle="bold"
+            android:textColor="@color/tintColor"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_gradient"
+            android:padding="8dp"
+           />
+
+        <Button
+            android:id="@+id/mainRegisterBtnId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registerBtn"
+            android:textStyle="bold"
+            android:textColor="@color/tintColor"
+            android:textSize="18sp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/btn_gradient"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/skipTextViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/loginTextView"
+            android:textStyle="bold"
+            android:textColor="@color/tintColor"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="8dp"/>
+
+    </LinearLayout>
+</RelativeLayout> 

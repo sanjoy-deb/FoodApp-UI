@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FoodAppFirebase</string>
+
+
+    <string name="cafeHouseTextView">Food House</string>
+    <string name="loginBtn">Login</string>
+    <string name="registerBtn">Register</string>
+    <string name="loginTextView">Skip</string>
+
+    <string name="splashScreenTextView">Hey Hungry!</string>
+    <string name="uploadImageTextView">Upload Image</string>
+
+    <string name="userNameEditText">User Name</string>
+    <string name="phoneEditText">Phone</string>
+    <string name="emailEditText">Email</string>
+    <string name="passwordEditText">********</string>
+
+    <string name="facebookTextView">Facebook</string>
+    <string name="googlePlusTextView">Google</string>
+    <string name="alreadyhaveAccountTextView">Already have Account? Login</string>
+</resources>

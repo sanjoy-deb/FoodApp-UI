@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/endcolorgradient"
+    tools:context=".SplashScreenActivity">
+
+   <!-- <ImageView
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        />-->
+    <com.chinodev.androidneomorphframelayout.NeomorphFrameLayout
+        android:id="@+id/splashScreenLodingId"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        app:neomorph_view_type="rectangular"
+        app:neomorph_shadow_type="outer"
+        app:neomorph_elevation="6dp"
+        app:neomorph_corner_radius="10dp"
+        app:neomorph_background_color="@color/endcolorgradient"
+        app:neomorph_shadow_color="@color/startcolorgradient"
+        app:neomorph_highlight_color="@color/endcolorgradient"
+        android:layout_centerInParent="true">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_viewId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_rawRes="@raw/dancing_burger"
+            app:lottie_loop="true"
+            app:lottie_autoPlay="true" />
+    </com.chinodev.androidneomorphframelayout.NeomorphFrameLayout>
+
+    <TextView
+        android:id="@+id/hungryTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/splashScreenTextView"
+        android:textSize="50sp"
+        android:textColor="@color/tintColor"
+        android:layout_below="@id/splashScreenLodingId"
+        android:fontFamily="sans-serif-light"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's find some food for you!"
+        android:textSize="20sp"
+        android:textColor="@color/tintColor"
+        android:layout_below="@id/hungryTextViewId"
+        android:layout_alignStart="@+id/hungryTextViewId"
+        android:layout_alignLeft="@+id/hungryTextViewId" />
+
+</RelativeLayout>
